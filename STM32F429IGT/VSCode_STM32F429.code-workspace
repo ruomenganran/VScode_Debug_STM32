@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.extension": "c",
+			"bsp.h": "c",
+			"stm32f4xx.h": "c",
+			"usart.h": "c",
+			"ucos_ii.h": "c",
+			"stm32f4xx_it.h": "c",
+			"stdio.h": "c",
+			"_ansi.h": "c",
+			"main.h": "c"
+		},
+		"files.exclude": {
+			"*.ld": true,
+			"*.mxproject": true,
+			"*.ioc": true,
+			"build": true,
+			"MDK-ARM": true,
+			"EWARM": true
+		}
+	}
+}

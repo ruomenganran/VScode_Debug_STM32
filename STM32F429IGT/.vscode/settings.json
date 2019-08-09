@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "*.extension": "c",
+        "bsp.h": "c",
+        "stm32f4xx.h": "c",
+        "usart.h": "c",
+        "ucos_ii.h": "c",
+        "stm32f4xx_it.h": "c",
+        "stdio.h": "c",
+        "_ansi.h": "c"
+    },
+    "C_Cpp.default.systemIncludePath": [
+        
+        //"C:/Keil_v5/ARM/ARMCC/include"
+        "C:/Program Files (x86)/GNU Tools ARM Embedded/8 2019-q3-update/arm-none-eabi/include"
+    ],
+    "search.exclude": {
+        "*.d": true,
+        "*.elf": true,
+        "*.hex": true,
+        "*.lst": true,
+        "*.o": true,
+        "*.map": true,
+        "build/": true
+    },
+}
