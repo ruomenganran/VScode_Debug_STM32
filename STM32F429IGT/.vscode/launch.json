@@ -13,7 +13,7 @@
             "program": "${workspaceFolder}/a.exe",
             "args": [],
             "stopAtEntry": true,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${workspaceFolder}/Make",
             "environment": [],
             "externalConsole": true,
             "preLaunchTask": "Jlink GDB Server",
@@ -34,7 +34,7 @@
                     "ignoreFailures": false
                 },
                 {
-                    "text": "file E:/Git/STM32/STM32F429/STM32F429IGT/build/STM32F429IGT.elf",
+                    "text": "file E:/Git/STM32/STM32F429/STM32F429IGT/Make/build/STM32F429IGT.elf",
                     "description": "load file to gdb",
                     "ignoreFailures": false
                 },
@@ -61,7 +61,7 @@
             "request": "launch",
             "servertype": "jlink",
             "cwd": "${workspaceFolder}",
-            "executable": "build/STM32F429IGT.elf",
+            "executable": "Make/build/STM32F429IGT.elf",
             "device": "STM32F429IG",
             "interface": "jtag",
             "preLaunchTask": "Build",

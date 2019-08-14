@@ -106,9 +106,9 @@ int main(void)
     HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_0);
     HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_1);
     count+=1;
-    printf("%d", count);
-    fflush(stdout);
-    HAL_Delay(500);
+//    printf("%d", count);
+//    fflush(stdout);
+    HAL_Delay(5);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

@@ -21,7 +21,7 @@
 			"*.mxproject": true,
 			"*.ioc": true,
 			"build": true,
-			"MDK-ARM": true,
+			// "MDK-ARM": true,
 			"EWARM": true
 		}
 	}
